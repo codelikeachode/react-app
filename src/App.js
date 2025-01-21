@@ -5,6 +5,9 @@ import { GlobalStyles } from './styles/GlobalStyles';
 import { theme } from './styles/Theme';
 import { AnimatePresence } from 'framer-motion';
 
+// Shared Components
+import Navbar from './components/shared/Navbar';
+
 // Home Components
 import Hero from './components/home/Hero';
 
