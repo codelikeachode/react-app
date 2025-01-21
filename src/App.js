@@ -7,6 +7,7 @@ import { AnimatePresence } from 'framer-motion';
 
 // Shared Components
 import Navbar from './components/shared/Navbar';
+import Footer from './components/shared/Footer';
 
 // Home Components
 import Hero from './components/home/Hero';
