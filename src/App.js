@@ -40,6 +40,7 @@ const App = () => {
         <main>
           <AppRoutes />
         </main>
+        <Footer />
         </div>
       </Router>
     </ThemeProvider>
