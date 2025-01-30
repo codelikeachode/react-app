@@ -46,25 +46,25 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       label: 'Email',
-      value: 'developer@example.com',
+      value: 'codelikeachode@hugedong.com',
       link: 'mailto:developer@example.com',
     },
     {
       icon: <FaGithub />,
       label: 'GitHub',
-      value: 'github.com/username',
-      link: 'https://github.com/username',
+      value: 'github.com/codelikeachode',
+      link: 'https://github.com/codelikeachode',
     },
     {
       icon: <FaLinkedin />,
       label: 'LinkedIn',
-      value: 'linkedin.com/in/username',
-      link: 'https://linkedin.com/in/username',
+      value: 'linkedin.com/in/codelikeachode',
+      link: 'https://linkedin.com/in/codelikeachode',
     },
     {
       icon: <FaMapMarkerAlt />,
       label: 'Location',
-      value: 'Silicon Valley, CA',
+      value: 'Tampa, FL',
       link: null,
     },
   ];

@@ -76,7 +76,7 @@ const Navbar = () => {
     <Nav $scrolled={scrolled}>
       <NavContainer>
         <Logo to="/">
-          <span>Your</span>Name
+          <span>John</span>Johnny
         </Logo>
 
         <MenuIcon onClick={() => setIsOpen(!isOpen)}>
