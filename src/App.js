@@ -12,12 +12,14 @@ import Footer from './components/shared/Footer';
 // Home Components
 import Hero from './components/home/Hero';
 import About from './components/home/About';
+import Portfolio from './components/home/Portfolio';
 import Contact from './components/home/Contact';
 
 const HomePage = memo(() => (
   <>
   <Hero />
   <About />
+  <Portfolio />
   <Contact />
   </>
 ));
