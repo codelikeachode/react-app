@@ -46,14 +46,14 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       label: 'Email',
-      value: 'codelikeachode@fatdong.com',
+      value: 'developer@example.com',
       link: 'mailto:developer@example.com',
     },
     {
       icon: <FaGithub />,
       label: 'GitHub',
-      value: 'github.com/codelikeachode',
-      link: 'https://github.com/codelikeachode',
+      value: 'github.com/username',
+      link: 'https://github.com/username',
     },
     {
       icon: <FaLinkedin />,
@@ -64,7 +64,7 @@ const Contact = () => {
     {
       icon: <FaMapMarkerAlt />,
       label: 'Location',
-      value: 'Tampa, FL',
+      value: 'Silicon Valley, CA',
       link: null,
     },
   ];

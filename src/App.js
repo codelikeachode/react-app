@@ -15,22 +15,26 @@ import About from './components/home/About';
 import Portfolio from './components/home/Portfolio';
 import Contact from './components/home/Contact';
 
+// Blog Components
+import Blog from './components/blog/Blog';
+
 const HomePage = memo(() => (
   <>
-  <Hero />
-  <About />
-  <Portfolio />
-  <Contact />
+    <Hero />
+    <About />
+    <Portfolio />
+    <Contact />
   </>
 ));
 
 const AppRoutes = memo(() => {
   const location = useLocation();
-
+  
   return (
     <AnimatePresence mode="popLayout" initial={false}>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<HomePage />} />
+        <Route path="/blog/*" element={<Blog />} />
       </Routes>
     </AnimatePresence>
   );
@@ -43,10 +47,10 @@ const App = () => {
       <Router>
         <div>
           <Navbar />
-        <main>
-          <AppRoutes />
-        </main>
-        <Footer />
+          <main>
+            <AppRoutes />
+          </main>
+          <Footer />
         </div>
       </Router>
     </ThemeProvider>
